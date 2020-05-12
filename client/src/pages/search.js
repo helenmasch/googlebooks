@@ -8,8 +8,9 @@ import Input from "../components/Input";
 class Search extends Component{
      state = {
          apiResults: [],
-         search: ""
+         search: "",
      }
+
      handleInputChange = event => {
         // Destructure the name and value properties off of event.target
         // Update the appropriate state
