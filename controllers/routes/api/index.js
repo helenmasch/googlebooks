@@ -3,7 +3,7 @@ const booksControllers = require("../../booksControllers");
 
 // matches with /api/books
 router.route("/")
-.get(books.booksControllers.findAll)
+.get(booksControllers.finalAll)
 .post(booksControllers.create);
 
 // matches with /api/books/:id
