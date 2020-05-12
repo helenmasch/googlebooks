@@ -1,5 +1,5 @@
 // require Mongoose package
-var mongoose = require(mongoose);
+var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
 // creating new BookSchema
@@ -27,4 +27,5 @@ var BookSchema = new Schema({
 
 
 
-module.exports = mongoose.model(Book, BookSchema);
+module.exports = mongoose.model("Book", BookSchema);
+
