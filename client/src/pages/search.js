@@ -26,8 +26,20 @@ class Search extends Component{
         event.preventDefault();
         api.getGooglebooks(this.state.search, this.state.apiKey)
           .then(res => { 
-            console.log(JSON.stringify(res.data));  
-            this.setState({ apiResults: res.data })})
+            // console.log(JSON.stringify(res.data));
+             
+            const searchBooks = []
+            for (var i=0; i < res.data.items.length; i++) {
+                searchBooks.push(
+                  { title: res.data.items[i].volumeInfo.title,
+                    description: res.data.items[i].volumeInfo.description,
+                    image: res.data.items[i].volumeInfo.imageLinks.thumbnail,
+                    link: res.data.items[i].volumeInfo.infoLink,
+                    authors: res.data.items[i].volumeInfo.authors
+                  })
+              }
+              // console.log(JSON.stringify(searchBooks));
+            this.setState({ apiResults: searchBooks })})
           .catch(err => console.log(err));
       };
     
@@ -73,11 +85,11 @@ class Search extends Component{
                       return (
                         <BookListItem
                           key={index}
-                          title={book.volumeInfo.title}
-                          authors={book.volumeInfo.authors}
-                          href={book.volumeInfo.previewLink}
-                          description={book.volumeInfo.description}
-                          thumbnail={book.volumeInfo.imageLinks.thumbnail}
+                          title={book.title}
+                          authors={book.authors}
+                          href={book.link}
+                          description={book.description}
+                          thumbnail={book.image}
                         />
                       );
                     })}
