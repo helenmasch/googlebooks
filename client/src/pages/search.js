@@ -9,7 +9,8 @@ class Search extends Component{
      state = {
          apiResults: [],
          search: "",
-     }
+         apiKey: `${process.env.REACT_APP_BOOKS_KEY}`
+     };
 
      handleInputChange = event => {
         // Destructure the name and value properties off of event.target
@@ -21,10 +22,12 @@ class Search extends Component{
       };
     
       handleFormSubmit = event => {
-        // When the form is submitted, prevent its default behavior, get recipes update the recipes state
+        // When the form is submitted, prevent its default behavior, get books update the books state
         event.preventDefault();
-        api.getGooglebooks(this.state.search)
-          .then(res => this.setState({ apiResults: res.data }))
+        api.getGooglebooks(this.state.search, this.state.apiKey)
+          .then(res => { 
+            console.log(JSON.stringify(res.data));  
+            this.setState({ apiResults: res.data })})
           .catch(err => console.log(err));
       };
     
