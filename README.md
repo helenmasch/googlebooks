@@ -4,8 +4,7 @@
 A new React-based Google Books Search app.
 
 ## App Link
-View here: 
-* [App Link](https://googlebooks-helen.herokuapp.com/)
+* [Googlebooks Search](https://googlebooks-helen.herokuapp.com/)
 
 ## Key Topics
 * React Router
