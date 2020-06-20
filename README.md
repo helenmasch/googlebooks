@@ -1,4 +1,4 @@
-Googlebooks Search
+# Googlebooks Search
 
 ## Overview
 A new React-based Google Books Search app.
