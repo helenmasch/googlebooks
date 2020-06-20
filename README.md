@@ -1,6 +1,7 @@
 # Unit 20: Googlebooks
 
-
+## Main Page <br>
+![Main Page](/images/main-page.png)
 
 # React App Info
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
