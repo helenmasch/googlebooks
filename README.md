@@ -7,6 +7,13 @@ A new React-based Google Books Search app.
 View here: 
 * [App Link](https://googlebooks-helen.herokuapp.com/)
 
+## Key Topics
+* React Router
+* Lifecycle methods
+* MERN 
+* Proxy
+* AJAX calls
+
 ## Main Page <br>
 ![Main Page](/images/main-page.png)
 
