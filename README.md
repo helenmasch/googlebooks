@@ -18,6 +18,7 @@ A new React-based Google Books Search app.
 
 ## Googlebook Search <br>
 ![Googlebook Search](/images/gossip-girl.png)
+![Googlebook Search](/images/andy-cohen.png)
 
 # React App Info
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
