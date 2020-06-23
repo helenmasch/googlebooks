@@ -1,10 +1,10 @@
 # Googlebooks Search
 
-## Created By!
-* Helen Maschmeyer
-
 ## Overview
 A new React-based Google Books Search app. Working with helper/util functions, this app utilizes React lifestyle methods to query and display books based on what the user searches. The user can save books to review or purchase later, this functionality uses Node, Express and MongoDB. 
+
+## Author
+* Helen Maschmeyer
 
 ## App Link
 * [Googlebooks Search](https://googlebooks-helen.herokuapp.com/)
