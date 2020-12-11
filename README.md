@@ -9,7 +9,7 @@ A new React-based Google Books Search app. Working with helper/util functions, t
 ## App Link
 * [Googlebooks Search](https://googlebooks-helen.herokuapp.com/)
 
-## Tech
+## Tech Highlights
 * React Router
 * Lifecycle methods
 * MERN 
@@ -92,13 +92,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-## Overview
-
-
-## Key Topics
-* React Router
-* Lifecycle methods
-* MERN 
-* Proxy
-* AJAX calls
