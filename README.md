@@ -5,6 +5,10 @@ A new React-based Google Books Search app. Working with helper/util functions, t
 
 ## Contributor
 * Helen Maschmeyer
+* Email Me: maschmeyerhelen@gmail.com
+* Let's Connect: [Linkedin](https://www.linkedin.com/in/helen-maschmeyer-7275088a/)
+* My Foodie-gram: [@hangryandhungry](https://www.instagram.com/hangryandhungry/)
+
 
 ## App Link
 * [Googlebooks Search](https://googlebooks-helen.herokuapp.com/)
