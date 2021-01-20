@@ -15,10 +15,14 @@ A new React-based Google Books Search app. Working with helper/util functions, t
 
 ## Tech Highlights
 * React Router
-* Lifecycle methods
+* Lifecycle Methods
 * MERN 
 * Proxy
-* AJAX calls
+* AJAX Calls
+* JavaScript
+* Shell
+* HTML
+* CSS
 
 ## Main Page <br>
 ![Main Page](/images/main-page.png)
